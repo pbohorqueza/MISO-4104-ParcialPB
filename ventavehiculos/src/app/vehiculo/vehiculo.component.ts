@@ -8,7 +8,7 @@ import { Vehiculo } from './vehiculo';
 })
 export class VehiculoComponent implements OnInit {
 
-  private vehiculos: Array<Vehiculo> = [];
+  vehiculos: Array<Vehiculo> = [];
   constructor() { }
 
   getVehicleList(): Array<Vehiculo> {
